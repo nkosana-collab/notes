@@ -6,5 +6,21 @@
 </head>
 <body>
     <h1>This is the Notes server!</h1>
+
+    <form id="input-form">
+        <input name="word" type="text" placeholder="search">
+        <input name="submit" type="submit"/>
+    </form>
+
+
+    <form id="create-form">
+        <input name="message" type="text" placeholder="Enter a note" required>
+        <input type="submit" value="Send">
+    </form>
+
+    <h2 id="note-id"></h2>
+    <p id="note"></p>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

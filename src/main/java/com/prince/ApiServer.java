@@ -38,7 +38,7 @@ public class ApiServer {
                 notes.add(note);
 
                 ctx.status(201);
-                ctx.header("Location", "/notes" + note.getId());
+                ctx.header("Location", "/notes/" + note.getId());
                 ctx.json(note);
             });
         });
