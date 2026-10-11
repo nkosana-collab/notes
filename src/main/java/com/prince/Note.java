@@ -5,6 +5,7 @@ public class Note {
     private String message;
     private final int id;
 
+
     public Note(String message, int id) {
         this.message = message;
         this.id = id;
